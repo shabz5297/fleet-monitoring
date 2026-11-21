@@ -9,6 +9,7 @@ A containerized SRE observability and alerting stack built with **Python, Docker
 ```text
 [Python Fleet Exporter :8000] ---> [Prometheus :9090] ---> [Grafana :3000] ---> [Telegram Bot Alert]
  (20 devices across 2 racks)       (Scrapes every 15s)     (Dashboards + 2m rule)
+```
 
 ![Prometheus Targets](screenshots/prometheus-targets.png)
 ![Grafana Dashboard](screenshots/grafana-dashboard.png)

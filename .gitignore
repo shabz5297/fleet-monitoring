@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Grafana / Docker local storage
+grafana/grafana.db
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
